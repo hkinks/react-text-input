@@ -4,19 +4,9 @@ import {GenericScrollBox, ScrollAxes} from 'react-scroll-box';
 import {GenericInput} from './GenericInput';
 import PropTypes from 'prop-types';
 
-const {string, bool, any} = PropTypes;
 
 export class TextArea extends React.Component {
 
-  static propTypes = {
-    value: string,
-    defaultValue: string,
-    disabled: bool,
-    className: string,
-    placeholder: any,
-    fitLineLength: bool,
-    propagateWheelScroll: bool
-  };
   static defaultProps = {
     disabled: false,
     fitLineLength: false,

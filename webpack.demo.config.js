@@ -32,5 +32,9 @@ module.exports = {
       {test: /\.less$/, loader: ExtractTextPlugin.extract('style', 'css!less?strictUnits=true&strictMath=true')},
       {test: /\.(png|jpg)$/, loader: 'file-loader?name=[name].[ext]'}
     ]
-  }
+  },
+  "output":{
+    "publicPath": ""
+  },
+  devtool: 'source-map',
 };

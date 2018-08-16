@@ -3,18 +3,9 @@ import {findDOMNode} from 'react-dom';
 import {GenericInput} from './GenericInput';
 import PropTypes from 'prop-types';
 
-const {any, bool} = PropTypes;
 
 export class Input extends React.Component {
 
-  static propTypes = {
-    value: any,
-    defaultValue: any,
-    disabled: bool,
-    placeholder: any,
-    className: any,
-    fitLineLength: bool
-  };
   static defaultProps = {
     disabled: false,
     fitLineLength: false

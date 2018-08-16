@@ -1,17 +1,9 @@
 import React from 'react';
 import {findDOMNode} from 'react-dom';
-import PropTypes from 'prop-types';
 
-const {any, bool} = PropTypes;
 
 export class GenericInput extends React.Component {
 
-  static propTypes = {
-    value: any,
-    disabled: bool,
-    placeholder: any,
-    className: any
-  };
   static defaultProps = {
     disabled: false
   };
