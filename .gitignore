@@ -4,6 +4,7 @@ node_modules/
 target/
 typings/
 npm-debug.log
+package-lock.json
 
 # IDE
 .idea/
@@ -32,3 +33,4 @@ Desktop.ini
 Network Trash Folder
 Temporary Items
 .apdisk
+

@@ -52,6 +52,7 @@
     "react": ">=0.13.0"
   },
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react-dom": ">=0.13.0",
     "react-scroll-box": "~0.2.0"
   },

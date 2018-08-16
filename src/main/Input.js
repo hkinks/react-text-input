@@ -1,8 +1,9 @@
 import React from 'react';
 import {findDOMNode} from 'react-dom';
 import {GenericInput} from './GenericInput';
+import PropTypes from 'prop-types';
 
-const {any, bool} = React.PropTypes;
+const {any, bool} = PropTypes;
 
 export class Input extends React.Component {
 
