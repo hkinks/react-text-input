@@ -1,7 +1,7 @@
 # Paths
 node/
 node_modules/
-target/
+#target/
 typings/
 npm-debug.log
 package-lock.json
